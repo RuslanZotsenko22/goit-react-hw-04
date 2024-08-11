@@ -1,0 +1,21 @@
+.loadMoreBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 30px;
+  font-size: 1em;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.loadMoreBtn:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.loadMoreBtn:not(:disabled):hover {
+  background-color: darkred;
+}
